@@ -89,7 +89,7 @@
 
 <script>
   // 菊名駅を中心に地図を初期化
-  const map = L.map('map').setView([35.5017, 139.6195], 17);
+  const map = L.map('map').setView([35.510413, 139.631722], 17);
 
   // ベースタイル（OSM）
   const osmTile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -105,7 +105,7 @@
     iconSize: [24, 24],
     iconAnchor: [12, 12]
   });
-  L.marker([35.5017, 139.6195], { icon: stationIcon })
+  L.marker([35.510413, 139.631722], { icon: stationIcon })
     .addTo(map)
     .bindPopup('<b>菊名駅</b><br>横浜市港北区');
 
@@ -208,6 +208,8 @@
     }
     document.getElementById('btn-before').classList.remove('active');
     document.getElementById('btn-after').classList.add('active');
+    document.getElementById('info-bar').innerHTML =
+      '✅ 変更後のOSMデータを表示しています。マーカーをクリックすると詳細が確認できます。';
   }
 
   function showPlaceholder(mode) {
@@ -228,12 +230,12 @@
   function legendHTML(mode) {
     if (mode === 'before') {
       return `<b>修正前 (Before)</b><br>
-        <span class="legend-dot" style="background:#e74c3c"></span>OSM既存データ<br>
+        <span class="legend-dot" style="background:#e74c3c"></span>修正前データ<br>
         <span style="font-size:0.75rem;color:#888">⚠️ fixme タグ付きあり</span>`;
     } else {
       return `<b>修正後 (After)</b><br>
-        <span class="legend-dot" style="background:#2ecc71"></span>Every Door修正済み<br>
-        <span style="font-size:0.75rem;color:#888">✅ 現地確認済み</span>`;
+        <span class="legend-dot" style="background:#2ecc71"></span>変更後データ<br>
+        <span style="font-size:0.75rem;color:#888">📍 菊名駅東口周辺</span>`;
     }
   }
 

@@ -134,6 +134,17 @@
     return `<b>${name}</b><br><span style="color:#666">${type}</span>${fixme}`;
   }
 
+  // 中心座標から距離(m)を計算
+  function distFrom(lat1, lon1, lat2, lon2) {
+    const R = 6371000;
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180) * Math.cos(lat2*Math.PI/180) * Math.sin(dLon/2)**2;
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  }
+  const CENTER = [35.510413, 139.631722];
+  const RADIUS_M = 250;
+
   function loadGeoJSON(url, color, onLoad) {
     fetch(url)
       .then(r => {
@@ -142,6 +153,11 @@
       })
       .then(data => {
         const layer = L.geoJSON(data, {
+          filter: (feature) => {
+            if (!feature.geometry || feature.geometry.type !== 'Point') return true;
+            const [lon, lat] = feature.geometry.coordinates;
+            return distFrom(CENTER[0], CENTER[1], lat, lon) <= RADIUS_M;
+          },
           pointToLayer: (f, latlng) => L.circleMarker(latlng, {
             radius: 7,
             fillColor: color,

@@ -182,6 +182,7 @@
     beforeLayer = layer;
     if (currentView === 'before' && layer) {
       layer.addTo(map);
+      map.fitBounds(layer.getBounds(), { padding: [24, 24] });
       updateLegend('before');
     } else if (!layer) {
       showPlaceholder('before');

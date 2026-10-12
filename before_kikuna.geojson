@@ -1,0 +1,3657 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-10-12T09:36:34Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/128999716",
+        "amenity": "grave_yard",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6329539,
+              35.5107479
+            ],
+            [
+              139.6328594,
+              35.5106188
+            ],
+            [
+              139.6328288,
+              35.5105531
+            ],
+            [
+              139.6327314,
+              35.5103856
+            ],
+            [
+              139.6328427,
+              35.5103154
+            ],
+            [
+              139.6327731,
+              35.5101659
+            ],
+            [
+              139.6327258,
+              35.510064
+            ],
+            [
+              139.6329567,
+              35.5099576
+            ],
+            [
+              139.6331681,
+              35.5100686
+            ],
+            [
+              139.6331904,
+              35.5102905
+            ],
+            [
+              139.6333935,
+              35.5105667
+            ],
+            [
+              139.6329539,
+              35.5107479
+            ]
+          ]
+        ]
+      },
+      "id": "way/128999716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/153197508",
+        "addr:block_number": "1",
+        "addr:housenumber": "18",
+        "amenity": "restaurant",
+        "branch": "菊名駅前店",
+        "brand": "ジョナサン",
+        "brand:en": "Jonathan's",
+        "brand:ja": "ジョナサン",
+        "brand:wikidata": "Q11310628",
+        "building": "retail",
+        "cuisine": "italian;japanese",
+        "name": "ジョナサン",
+        "name:en": "Jonathan's",
+        "name:ja": "ジョナサン",
+        "opening_hours": "Mo-Su 09:00-23:30; PH 09:00-23:30",
+        "phone": "+81  45 438 7270",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6302954,
+              35.5098566
+            ],
+            [
+              139.6302966,
+              35.5098747
+            ],
+            [
+              139.630206,
+              35.5098785
+            ],
+            [
+              139.6302078,
+              35.5099056
+            ],
+            [
+              139.6301042,
+              35.50991
+            ],
+            [
+              139.6301021,
+              35.5098768
+            ],
+            [
+              139.6300307,
+              35.5098798
+            ],
+            [
+              139.6300244,
+              35.5097823
+            ],
+            [
+              139.6302888,
+              35.5097711
+            ],
+            [
+              139.6302913,
+              35.50981
+            ],
+            [
+              139.6304335,
+              35.509804
+            ],
+            [
+              139.6304364,
+              35.5098506
+            ],
+            [
+              139.6302954,
+              35.5098566
+            ]
+          ]
+        ]
+      },
+      "id": "way/153197508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/254625762",
+        "addr:block_number": "4",
+        "addr:city": "横浜市",
+        "addr:housenumber": "40",
+        "addr:neighbourhood": "5丁目",
+        "addr:postcode": "222-0011",
+        "addr:province": "神奈川県",
+        "addr:quarter": "菊名",
+        "addr:suburb": "港北区",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "菊名山 蓮勝寺",
+        "name:ja": "菊名山 蓮勝寺",
+        "religion": "buddhist",
+        "source": "Bing;survey;bing",
+        "wikidata": "Q136786753",
+        "wikipedia": "ja:蓮勝寺 (横浜市)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6335334,
+              35.5102758
+            ],
+            [
+              139.6335232,
+              35.5102559
+            ],
+            [
+              139.6334777,
+              35.5102714
+            ],
+            [
+              139.6335005,
+              35.5103158
+            ],
+            [
+              139.6334718,
+              35.5103256
+            ],
+            [
+              139.6334909,
+              35.5103628
+            ],
+            [
+              139.6334071,
+              35.5103913
+            ],
+            [
+              139.633387,
+              35.5103521
+            ],
+            [
+              139.633354,
+              35.5103633
+            ],
+            [
+              139.6332903,
+              35.5102393
+            ],
+            [
+              139.633333,
+              35.5102248
+            ],
+            [
+              139.6333267,
+              35.5102125
+            ],
+            [
+              139.633383,
+              35.5101933
+            ],
+            [
+              139.6333895,
+              35.5102058
+            ],
+            [
+              139.6334669,
+              35.5101794
+            ],
+            [
+              139.6334616,
+              35.5101691
+            ],
+            [
+              139.6334413,
+              35.510176
+            ],
+            [
+              139.6334071,
+              35.5101096
+            ],
+            [
+              139.6334443,
+              35.5100969
+            ],
+            [
+              139.6334118,
+              35.5100334
+            ],
+            [
+              139.633504,
+              35.510002
+            ],
+            [
+              139.6334998,
+              35.5099939
+            ],
+            [
+              139.6335329,
+              35.5099826
+            ],
+            [
+              139.6335371,
+              35.5099907
+            ],
+            [
+              139.6335804,
+              35.509976
+            ],
+            [
+              139.6336303,
+              35.510073
+            ],
+            [
+              139.6336135,
+              35.5100787
+            ],
+            [
+              139.6336242,
+              35.5100995
+            ],
+            [
+              139.633641,
+              35.5100938
+            ],
+            [
+              139.6337046,
+              35.5102174
+            ],
+            [
+              139.6335334,
+              35.5102758
+            ]
+          ]
+        ]
+      },
+      "id": "way/254625762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/256673184",
+        "addr:block_number": "1",
+        "addr:city": "横浜市",
+        "addr:housenumber": "5",
+        "addr:neighbourhood": "菊名四丁目",
+        "addr:province": "神奈川県",
+        "addr:suburb": "港北区",
+        "amenity": "police",
+        "building": "yes",
+        "name": "菊名駅前交番",
+        "official_name": "神奈川県港北警察署菊名駅前交番",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6316737,
+              35.5098697
+            ],
+            [
+              139.6316924,
+              35.5098128
+            ],
+            [
+              139.6317311,
+              35.5098212
+            ],
+            [
+              139.6317123,
+              35.5098781
+            ],
+            [
+              139.6316737,
+              35.5098697
+            ]
+          ]
+        ]
+      },
+      "id": "way/256673184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/266085916",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6314619,
+              35.5105357
+            ],
+            [
+              139.6315525,
+              35.5105177
+            ],
+            [
+              139.6315469,
+              35.5107395
+            ],
+            [
+              139.6315139,
+              35.5107414
+            ],
+            [
+              139.6315178,
+              35.5107924
+            ],
+            [
+              139.6314926,
+              35.5107898
+            ],
+            [
+              139.6314958,
+              35.5108687
+            ],
+            [
+              139.6314182,
+              35.5108645
+            ],
+            [
+              139.6314619,
+              35.5105357
+            ]
+          ]
+        ]
+      },
+      "id": "way/266085916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/296993498",
+        "amenity": "bicycle_parking",
+        "name": "菊名駅東口自転車駐車場"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6306196,
+              35.5095485
+            ],
+            [
+              139.6310682,
+              35.5094926
+            ],
+            [
+              139.6313637,
+              35.5094052
+            ],
+            [
+              139.631346,
+              35.5094803
+            ],
+            [
+              139.6306247,
+              35.509569
+            ],
+            [
+              139.6306196,
+              35.5095485
+            ]
+          ]
+        ]
+      },
+      "id": "way/296993498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/298257574",
+        "access": "yes",
+        "amenity": "parking",
+        "capacity": "7",
+        "fee": "yes",
+        "operator": "スキップ",
+        "parking": "street_side",
+        "surface": "asphalt",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6309861,
+              35.5110237
+            ],
+            [
+              139.6310071,
+              35.5108552
+            ],
+            [
+              139.6310873,
+              35.5108619
+            ],
+            [
+              139.6310663,
+              35.5110303
+            ],
+            [
+              139.6309861,
+              35.5110237
+            ]
+          ]
+        ]
+      },
+      "id": "way/298257574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/298257575",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6314259,
+              35.5109989
+            ],
+            [
+              139.6314601,
+              35.5113144
+            ],
+            [
+              139.6313461,
+              35.511304
+            ],
+            [
+              139.631393,
+              35.5110065
+            ],
+            [
+              139.6314259,
+              35.5109989
+            ]
+          ]
+        ]
+      },
+      "id": "way/298257575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/315256295",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6307805,
+              35.5115689
+            ],
+            [
+              139.6308224,
+              35.511526
+            ],
+            [
+              139.6308449,
+              35.5115405
+            ],
+            [
+              139.630839,
+              35.5115952
+            ],
+            [
+              139.6308213,
+              35.5115953
+            ],
+            [
+              139.6307805,
+              35.5115689
+            ]
+          ]
+        ]
+      },
+      "id": "way/315256295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/395226952",
+        "amenity": "parking",
+        "parking": "surface",
+        "source": "Bing 2014",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6321387,
+              35.5110289
+            ],
+            [
+              139.6321856,
+              35.5110147
+            ],
+            [
+              139.6322098,
+              35.5110529
+            ],
+            [
+              139.6321628,
+              35.5110639
+            ],
+            [
+              139.6321387,
+              35.5110289
+            ]
+          ]
+        ]
+      },
+      "id": "way/395226952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/395226980",
+        "amenity": "parking",
+        "parking": "surface",
+        "source": "Bing 2014"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6320998,
+              35.5109503
+            ],
+            [
+              139.6323707,
+              35.5108575
+            ],
+            [
+              139.6323881,
+              35.5108936
+            ],
+            [
+              139.6321199,
+              35.5109874
+            ],
+            [
+              139.6320998,
+              35.5109503
+            ]
+          ]
+        ]
+      },
+      "id": "way/395226980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/395227034",
+        "amenity": "parking",
+        "parking": "surface",
+        "source": "Bing 2014"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6322004,
+              35.5110093
+            ],
+            [
+              139.6323452,
+              35.5109547
+            ],
+            [
+              139.632357,
+              35.5109992
+            ],
+            [
+              139.6322192,
+              35.5110475
+            ],
+            [
+              139.6322004,
+              35.5110093
+            ]
+          ]
+        ]
+      },
+      "id": "way/395227034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/395227042",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "あっとパーキング菊名",
+        "parking": "surface",
+        "source": "Bing 2014",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6325974,
+              35.5117352
+            ],
+            [
+              139.6326548,
+              35.5118485
+            ],
+            [
+              139.6324458,
+              35.5119229
+            ],
+            [
+              139.6324726,
+              35.5120386
+            ],
+            [
+              139.6323506,
+              35.5120692
+            ],
+            [
+              139.6322715,
+              35.5118258
+            ],
+            [
+              139.6325974,
+              35.5117352
+            ]
+          ]
+        ]
+      },
+      "id": "way/395227042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/395227049",
+        "amenity": "parking",
+        "parking": "surface",
+        "source": "Bing 2014"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6319,
+              35.5121806
+            ],
+            [
+              139.6319654,
+              35.5121738
+            ],
+            [
+              139.6319694,
+              35.5123059
+            ],
+            [
+              139.6319094,
+              35.5123127
+            ],
+            [
+              139.6319,
+              35.5121806
+            ]
+          ]
+        ]
+      },
+      "id": "way/395227049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/401325309",
+        "amenity": "parking",
+        "parking": "surface",
+        "source": "Bing 2014"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6323185,
+              35.5090017
+            ],
+            [
+              139.6324405,
+              35.5089111
+            ],
+            [
+              139.6324758,
+              35.5089416
+            ],
+            [
+              139.6323506,
+              35.5090344
+            ],
+            [
+              139.6323185,
+              35.5090017
+            ]
+          ]
+        ]
+      },
+      "id": "way/401325309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/419681152",
+        "access": "yes",
+        "amenity": "parking",
+        "branch": "篠原北",
+        "fee": "yes",
+        "name": "タイムズ",
+        "parking": "surface",
+        "source": "Bing 2014"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.630402,
+              35.5090115
+            ],
+            [
+              139.6305437,
+              35.5090162
+            ],
+            [
+              139.6305911,
+              35.509089
+            ],
+            [
+              139.6306085,
+              35.5091403
+            ],
+            [
+              139.6303913,
+              35.509113
+            ],
+            [
+              139.6303962,
+              35.5090667
+            ],
+            [
+              139.630402,
+              35.5090115
+            ]
+          ]
+        ]
+      },
+      "id": "way/419681152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/529663800",
+        "addr:city": "横浜市",
+        "addr:housenumber": "6-5-14",
+        "addr:postcode": "222-0011",
+        "addr:quarter": "菊名",
+        "addr:suburb": "港北区",
+        "amenity": "place_of_worship",
+        "check_date": "2026-01-02",
+        "enshrine": "誉田別命;天照皇大神;日本武尊;木花咲耶姫命;武内宿禰命",
+        "fax": "+81-045-431-9972",
+        "name": "菊名神社",
+        "phone": "+81-045-431-9344",
+        "religion": "shinto",
+        "website": "http://www.kikunajinja.jp/#",
+        "wheelchair": "no",
+        "wikidata": "Q28069431"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6325337,
+              35.5121424
+            ],
+            [
+              139.6324828,
+              35.5120455
+            ],
+            [
+              139.6324519,
+              35.511929
+            ],
+            [
+              139.6327469,
+              35.5118176
+            ],
+            [
+              139.6329146,
+              35.5120087
+            ],
+            [
+              139.6325337,
+              35.5121424
+            ]
+          ]
+        ]
+      },
+      "id": "way/529663800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/679495565",
+        "amenity": "parking",
+        "branch": "菊名駅前",
+        "name": "三井のリパーク"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6305794,
+              35.5093018
+            ],
+            [
+              139.6305677,
+              35.5093532
+            ],
+            [
+              139.6304959,
+              35.5093479
+            ],
+            [
+              139.6305057,
+              35.5092897
+            ],
+            [
+              139.6305794,
+              35.5093018
+            ]
+          ]
+        ]
+      },
+      "id": "way/679495565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1436313814",
+        "access": "permissive",
+        "amenity": "parking",
+        "parking": "surface",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6306605,
+              35.5107901
+            ],
+            [
+              139.6306201,
+              35.5106053
+            ],
+            [
+              139.6307994,
+              35.5105794
+            ],
+            [
+              139.6308066,
+              35.5106126
+            ],
+            [
+              139.6308188,
+              35.5106108
+            ],
+            [
+              139.6308519,
+              35.5107625
+            ],
+            [
+              139.6306605,
+              35.5107901
+            ]
+          ]
+        ]
+      },
+      "id": "way/1436313814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1551068755",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6307778,
+              35.511572
+            ],
+            [
+              139.6308199,
+              35.511598
+            ],
+            [
+              139.630838,
+              35.5115992
+            ],
+            [
+              139.6308304,
+              35.5116729
+            ],
+            [
+              139.6307373,
+              35.5116155
+            ],
+            [
+              139.6307778,
+              35.511572
+            ]
+          ]
+        ]
+      },
+      "id": "way/1551068755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1271732232",
+        "amenity": "doctors",
+        "name": "菊名整形外科"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6313095,
+          35.5120301
+        ]
+      },
+      "id": "node/1271732232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1420830498",
+        "addr:block_number": "1",
+        "addr:city": "横浜市",
+        "addr:housenumber": "5",
+        "addr:neighbourhood": "4",
+        "addr:postcode": "2220011",
+        "addr:province": "神奈川県",
+        "addr:quarter": "菊名",
+        "addr:suburb": "港北区",
+        "amenity": "post_office",
+        "name": "神奈川菊名郵便局",
+        "opening_hours": "Sa,Su,PH off",
+        "operator": "日本郵便",
+        "operator:en": "Japan Post",
+        "operator:ja": "日本郵便",
+        "operator:short": "郵便局",
+        "operator:short:en": "JP",
+        "operator:short:ja": "郵便局",
+        "operator:wikidata": "Q11509260",
+        "website": "https://map.japanpost.jp/p/search/dtl/300102229000/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6317691,
+          35.5098635
+        ]
+      },
+      "id": "node/1420830498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1534183941",
+        "amenity": "pharmacy",
+        "brand": "ダイコクドラッグ",
+        "brand:en": "Daikoku Drug",
+        "brand:ja": "ダイコクドラッグ",
+        "brand:wikidata": "Q11316754",
+        "brand:wikipedia": "ja:ダイコク",
+        "fixme": "2017年ごろに閉店している模様。入居していたビルも建て替わっている可能性がある。",
+        "healthcare": "pharmacy",
+        "name": "ダイコクドラッグ;福美湯",
+        "name:en": "Daikoku Drug",
+        "name:ja": "ダイコクドラッグ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6315297,
+          35.5108638
+        ]
+      },
+      "id": "node/1534183941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1658948723",
+        "addr:city": "横浜市港北区菊名４丁目２−８",
+        "addr:postcode": "2220011",
+        "amenity": "bank",
+        "name": "みずほ銀行・菊名出張所",
+        "source": "survey;bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.631801,
+          35.510498
+        ]
+      },
+      "id": "node/1658948723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1658948826",
+        "amenity": "fast_food",
+        "fixme": "現存していない模様。",
+        "name": "新世界の鯛焼き",
+        "source": "survey;bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316659,
+          35.5105186
+        ]
+      },
+      "id": "node/1658948826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1658948858",
+        "amenity": "bank",
+        "brand": "横浜銀行",
+        "brand:en": "Bank of Yokohama",
+        "brand:ja": "横浜銀行",
+        "brand:wikidata": "Q2744340",
+        "check_date:opening_hours": "2026-09-03",
+        "name": "横浜銀行",
+        "name:en": "Bank of Yokohama",
+        "name:ja": "横浜銀行",
+        "opening_hours": "Mo-Fr 09:00-15:00",
+        "source": "survey; bing",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6319721,
+          35.5112114
+        ]
+      },
+      "id": "node/1658948858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1746671625",
+        "brand": "FamilyMart",
+        "brand:en": "FamilyMart",
+        "brand:ja": "ファミリーマート",
+        "brand:wikidata": "Q11247682",
+        "name": "ファミリーマート",
+        "name:en": "FamilyMart",
+        "name:ja": "ファミリーマート",
+        "name:ja-Hira": "ふぁみりーまーと",
+        "name:ja-Latn": "Famirī Māto",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "source": "survey; Bing",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6323427,
+          35.5097702
+        ]
+      },
+      "id": "node/1746671625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1746671626",
+        "amenity": "pharmacy",
+        "branch": "菊名駅東口店",
+        "name": "マツモトキヨシ",
+        "phone": "+81 45-431-3160",
+        "source": "survey; Bing",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6321122,
+          35.50974
+        ]
+      },
+      "id": "node/1746671626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1988318502",
+        "addr:city": "横浜市",
+        "addr:housenumber": "199イ",
+        "addr:neighbourhood": "大豆戸町",
+        "addr:province": "神奈川県",
+        "addr:suburb": "港北区",
+        "branch": "横浜菊名駅前店",
+        "brand": "7-ELEVEN",
+        "brand:en": "7-ELEVEN",
+        "brand:ja": "セブン-イレブン",
+        "brand:wikidata": "Q259340",
+        "name": "セブン-イレブン",
+        "name:en": "7-Eleven",
+        "name:ja": "セブン-イレブン",
+        "name:ja-Hira": "せぶんいれぶん",
+        "name:ja-Latn": "Sebun Irebun",
+        "official_name:en": "Seven-Eleven",
+        "opening_hours": "24/7",
+        "operator": "セブン-イレブン",
+        "phone": "045-431-1080",
+        "ref": "97028",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6307678,
+          35.510404
+        ]
+      },
+      "id": "node/1988318502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190745397",
+        "amenity": "cafe",
+        "branch": "菊名駅前店",
+        "building:levels": "2",
+        "check_date": "2026-07-15",
+        "name": "ドトールコーヒーショップ",
+        "not:brand:wikidata": "Q11322732",
+        "outdoor_seating": "no",
+        "phone": "045-432-8404",
+        "takeaway": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6318444,
+          35.50988
+        ]
+      },
+      "id": "node/2190745397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190745398",
+        "amenity": "restaurant",
+        "building:levels": "1",
+        "check_date": "2026-09-03",
+        "check_date:opening_hours": "2026-09-03",
+        "name": "松乃家",
+        "opening_hours": "Mo-Su,PH 09:00-23:30",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6318289,
+          35.5100958
+        ]
+      },
+      "id": "node/2190745398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190745628",
+        "addr:block_number": "2",
+        "addr:city": "横浜市",
+        "addr:housenumber": "2",
+        "addr:province": "神奈川県",
+        "addr:quarter": "菊名四丁目",
+        "addr:suburb": "港北区",
+        "amenity": "restaurant",
+        "branch": "菊名店",
+        "brand": "大阪王将",
+        "brand:en": "Osaka Ohsho",
+        "brand:ja": "大阪王将",
+        "brand:wikidata": "Q48743717",
+        "brand:zh": "大阪王將",
+        "cuisine": "japanese;chinese",
+        "level": "0",
+        "name": "大阪王将",
+        "name:en": "Osaka Ohsho",
+        "name:ja": "大阪王将",
+        "name:zh": "大阪王將"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.631931,
+          35.5100294
+        ]
+      },
+      "id": "node/2190745628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190745768",
+        "check_date": "2026-07-17",
+        "name": "菊名生花店",
+        "phone": "+81 45-401-0331",
+        "shop": "florist",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.631975,
+          35.509945
+        ]
+      },
+      "id": "node/2190745768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190746302",
+        "amenity": "restaurant",
+        "check_date": "2026-07-30",
+        "check_date:opening_hours": "2026-07-30",
+        "name": "とんかつ かつき",
+        "opening_hours": "Mo-Su 11:30-14:00",
+        "phone": "+81 45-401-9978",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.632085,
+          35.509904
+        ]
+      },
+      "id": "node/2190746302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190746751",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.631938,
+          35.509843
+        ]
+      },
+      "id": "node/2190746751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190749608",
+        "amenity": "pharmacy",
+        "name": "新生堂薬局",
+        "opening_hours": "09:30-20:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6318672,
+          35.5098938
+        ]
+      },
+      "id": "node/2190749608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190753710",
+        "name": "Laputa",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6318914,
+          35.5102569
+        ]
+      },
+      "id": "node/2190753710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190755566",
+        "amenity": "fast_food",
+        "branch": "菊名店",
+        "brand": "松屋",
+        "brand:en": "Matsuya",
+        "brand:ja": "松屋",
+        "brand:wikidata": "Q848773",
+        "brand:wikipedia": "ja:松屋フーズ",
+        "brand:zh": "松屋",
+        "capacity": "16",
+        "cuisine": "beef_bowl",
+        "name": "松屋",
+        "name:en": "Matsuya",
+        "name:ja": "松屋",
+        "name:ja_rm": "Matsuya",
+        "name:zh": "松屋",
+        "official_name": "松屋フーズ",
+        "official_name:en": "Matsuya Foods",
+        "official_name:ja": "松屋フーズ",
+        "opening_hours": "24/7",
+        "operator": "松屋フーズ",
+        "operator:en": "Matsuya Foods",
+        "operator:ja": "松屋フーズ",
+        "takeaway": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.63176,
+          35.5102721
+        ]
+      },
+      "id": "node/2190755566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190757369",
+        "amenity": "cafe",
+        "fixme": "2024年ごろに閉業。携帯販売店に変わっている模様。",
+        "name": "Sun Road"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316181,
+          35.5102556
+        ]
+      },
+      "id": "node/2190757369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190761375",
+        "amenity": "fast_food",
+        "cuisine": "ramen",
+        "name": "喜九成食堂",
+        "opening_hours": "11:00-02:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6317888,
+          35.5103654
+        ]
+      },
+      "id": "node/2190761375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190770379",
+        "amenity": "atm",
+        "name": "三菱東京UFJ銀行"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316266,
+          35.5103539
+        ]
+      },
+      "id": "node/2190770379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190773579",
+        "name": "Blue Hair",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6315332,
+          35.5110686
+        ]
+      },
+      "id": "node/2190773579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190775709",
+        "name": "aura",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316822,
+          35.5120137
+        ]
+      },
+      "id": "node/2190775709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2190800739",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "fax": "045-439-0086",
+        "name": "よつば薬局菊名",
+        "opening_hours": "09:00-19:00; Sa 09:00-18:00; Tu,Su,PH off",
+        "phone": "045-439-0085",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6319282,
+          35.5121082
+        ]
+      },
+      "id": "node/2190800739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2209528120",
+        "amenity": "place_of_worship",
+        "check_date": "2026-01-02",
+        "name": "神明社",
+        "religion": "shinto",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.632794,
+          35.51196
+        ]
+      },
+      "id": "node/2209528120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2209528665",
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 15:30; Sa 15:30; Su,PH 15:30",
+        "ref": "222202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6327479,
+          35.5118312
+        ]
+      },
+      "id": "node/2209528665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2209528989",
+        "name": "クリーニング光洋社",
+        "opening_hours": "07:00-20:00; Su off",
+        "shop": "dry_cleaning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.632708,
+          35.511637
+        ]
+      },
+      "id": "node/2209528989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2209529551",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "さがみや",
+        "opening_hours": "Mo-Fr 17:00-23:30; Sa 17:00-23:00",
+        "phone": "045-421-3039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6325093,
+          35.5113914
+        ]
+      },
+      "id": "node/2209529551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2209797703",
+        "amenity": "vending_machine",
+        "vending": "drinks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6326509,
+          35.5117524
+        ]
+      },
+      "id": "node/2209797703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2342894891",
+        "amenity": "pharmacy",
+        "branch": "菊名調剤薬局店",
+        "brand": "クリエイト薬局",
+        "brand:en": "Create Pharmacy",
+        "brand:ja": "クリエイト薬局",
+        "brand:wikidata": "Q115682176",
+        "check_date:opening_hours": "2026-07-15",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "クリエイト薬局",
+        "name:en": "Create Pharmacy",
+        "name:ja": "クリエイト薬局",
+        "opening_hours": "Mo-Fr 09:00-19:30; Sa 09:00-17:30; Su 09:30-18:00; PH off",
+        "phone": "+81 45 433 3555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6306645,
+          35.5094755
+        ]
+      },
+      "id": "node/2342894891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2342895389",
+        "addr:block_number": "1",
+        "addr:city": "横浜市",
+        "addr:housenumber": "1",
+        "addr:neighbourhood": "菊名七丁目",
+        "addr:postcode": "222-0011",
+        "addr:province": "神奈川県",
+        "addr:suburb": "港北区",
+        "branch": "菊名店",
+        "brand": "東急ストア",
+        "brand:en": "Tokyu Store",
+        "brand:ja": "東急ストア",
+        "brand:wikidata": "Q11526963",
+        "brand:wikipedia": "ja:東急ストア",
+        "name": "東急ストア",
+        "name:en": "Tokyu Store",
+        "name:ja": "東急ストア",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+81 45-433-1321",
+        "shop": "supermarket",
+        "stroller": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.631435,
+          35.50984
+        ]
+      },
+      "id": "node/2342895389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2623106529",
+        "amenity": "restaurant",
+        "branch": "菊名店",
+        "check_date": "2026-07-30",
+        "check_date:opening_hours": "2026-07-30",
+        "cuisine": "noodle",
+        "name": "そば香",
+        "opening_hours": "Mo-Su,PH 11:00-15:30,17:00-23:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6323805,
+          35.5095815
+        ]
+      },
+      "id": "node/2623106529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2623106646",
+        "amenity": "bicycle_parking",
+        "check_date": "2026-07-12",
+        "name": "菊名駅西口自転車駐車場"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6317552,
+          35.5096591
+        ]
+      },
+      "id": "node/2623106646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2623106755",
+        "amenity": "vending_machine",
+        "vending": "drinks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6323695,
+          35.5099557
+        ]
+      },
+      "id": "node/2623106755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2623106768",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6322988,
+          35.5099813
+        ]
+      },
+      "id": "node/2623106768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2623106780",
+        "amenity": "taxi",
+        "check_date": "2026-07-15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6317611,
+          35.5100082
+        ]
+      },
+      "id": "node/2623106780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2623106938",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "小森谷鍼灸治療院",
+        "phone": "+81 45-402-0282"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.632311,
+          35.5099467
+        ]
+      },
+      "id": "node/2623106938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475504",
+        "check_date": "2026-07-30",
+        "name": "Select",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6324351,
+          35.5095555
+        ]
+      },
+      "id": "node/2716475504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475507",
+        "check_date": "2026-07-30",
+        "check_date:opening_hours": "2026-07-30",
+        "name": "さわやかクリーニング 菊名店",
+        "opening_hours": "Fr-Tu 09:30-15:00; We,Th off",
+        "shop": "dry_cleaning",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6323001,
+          35.5096298
+        ]
+      },
+      "id": "node/2716475507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475509",
+        "amenity": "restaurant",
+        "check_date": "2026-07-17",
+        "cuisine": "ramen",
+        "name": "らあめん花月"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6318189,
+          35.5098838
+        ]
+      },
+      "id": "node/2716475509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475510",
+        "amenity": "fast_food",
+        "cuisine": "ramen",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.631769,
+          35.510175
+        ]
+      },
+      "id": "node/2716475510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475512",
+        "fixme": "現存しない模様。",
+        "name": "アクセスチケット",
+        "shop": "ticket",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.631779,
+          35.5101192
+        ]
+      },
+      "id": "node/2716475512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475725",
+        "amenity": "vending_machine",
+        "check_date": "2026-07-12",
+        "vending": "drinks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6330855,
+          35.5090169
+        ]
+      },
+      "id": "node/2716475725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475735",
+        "amenity": "pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6330855,
+          35.5093878
+        ]
+      },
+      "id": "node/2716475735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475747",
+        "access": "customers",
+        "amenity": "parking",
+        "capacity": "37",
+        "operator": "TSUTAYA 菊名店",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6327128,
+          35.5096961
+        ]
+      },
+      "id": "node/2716475747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475757",
+        "amenity": "vending_machine",
+        "vending": "drinks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6319394,
+          35.5098687
+        ]
+      },
+      "id": "node/2716475757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475778",
+        "amenity": "vending_machine",
+        "vending": "drinks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6317343,
+          35.5099411
+        ]
+      },
+      "id": "node/2716475778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475780",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6319779,
+          35.5100143
+        ]
+      },
+      "id": "node/2716475780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475781",
+        "name": "loop",
+        "shop": "clothes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316465,
+          35.5101098
+        ]
+      },
+      "id": "node/2716475781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475805",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6315922,
+          35.5105306
+        ]
+      },
+      "id": "node/2716475805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475817",
+        "amenity": "fast_food",
+        "fixme": "お弁当やさんがあったようだが、現存しない。",
+        "name": "ユーマート",
+        "takeaway": "only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316239,
+          35.5102885
+        ]
+      },
+      "id": "node/2716475817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475818",
+        "amenity": "restaurant",
+        "check_date": "2026-07-17",
+        "cuisine": "ramen",
+        "name": "武蔵家　菊名店",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6318815,
+          35.5100571
+        ]
+      },
+      "id": "node/2716475818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475826",
+        "amenity": "prep_school",
+        "brand": "東進衛星予備校",
+        "brand:en": "Toshin Eisei Yobiko",
+        "brand:ja": "東進衛星予備校",
+        "brand:wikidata": "Q11528412",
+        "building:levels": "2",
+        "name": "東進衛星予備校",
+        "name:en": "Toshin Eisei Yobiko",
+        "name:ja": "東進衛星予備校"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6323627,
+          35.5098134
+        ]
+      },
+      "id": "node/2716475826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475830",
+        "amenity": "doctors",
+        "name": "湯田眼科"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.631801,
+          35.5104204
+        ]
+      },
+      "id": "node/2716475830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475831",
+        "amenity": "dentist",
+        "check_date": "2026-09-03",
+        "levels": "3",
+        "name": "菊名歯科",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.63186,
+          35.5101279
+        ]
+      },
+      "id": "node/2716475831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716475836",
+        "amenity": "pharmacy",
+        "check_date": "2026-07-30",
+        "name": "順天堂",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6322412,
+          35.5096599
+        ]
+      },
+      "id": "node/2716475836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716845958",
+        "amenity": "restaurant",
+        "check_date": "2026-09-03",
+        "name": "◯座"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316753,
+          35.5107261
+        ]
+      },
+      "id": "node/2716845958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716845960",
+        "name": "おいもスイーツ",
+        "shop": "confectionery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316966,
+          35.511001
+        ]
+      },
+      "id": "node/2716845960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716845961",
+        "amenity": "doctors",
+        "name": "みゆき整骨院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.631684,
+          35.512086
+        ]
+      },
+      "id": "node/2716845961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716845963",
+        "amenity": "atm",
+        "check_date": "2026-09-03",
+        "name": "りそなクイックロビー"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.63168,
+          35.5108119
+        ]
+      },
+      "id": "node/2716845963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716845968",
+        "amenity": "fast_food",
+        "branch": "菊名店",
+        "cuisine": "curry",
+        "fixme": "2017年ごろに閉店している模様。ビルも建て替えにより亡くなっているかも。",
+        "name": "スパイス亭 菊名店"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316682,
+          35.5106479
+        ]
+      },
+      "id": "node/2716845968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716845970",
+        "check_date": "2026-01-02",
+        "name": "タナカ",
+        "shop": "rice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.631669,
+          35.510951
+        ]
+      },
+      "id": "node/2716845970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716846013",
+        "shop": "carpet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6318564,
+          35.5106645
+        ]
+      },
+      "id": "node/2716846013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716846142",
+        "female": "yes",
+        "male": "yes",
+        "name": "Iwasaki Hair Studio",
+        "opening_hours": "Mo-Sa 09:30-16:00",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316977,
+          35.5110586
+        ]
+      },
+      "id": "node/2716846142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716846159",
+        "shop": "bed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316912,
+          35.5112302
+        ]
+      },
+      "id": "node/2716846159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716846309",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "小川薬局",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6318273,
+          35.5105927
+        ]
+      },
+      "id": "node/2716846309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716846315",
+        "amenity": "dentist",
+        "levels": "1",
+        "name": "森田歯科",
+        "phone": "045-401-5880"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316806,
+          35.5120586
+        ]
+      },
+      "id": "node/2716846315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716846318",
+        "addr:block_number": "13",
+        "addr:city": "横浜市",
+        "addr:housenumber": "55",
+        "addr:province": "神奈川県",
+        "addr:quarter": "菊名六丁目",
+        "addr:suburb": "港北区",
+        "amenity": "prep_school",
+        "education": "prep_school",
+        "level": "0",
+        "name": "湘南ゼミナール菊名校"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6315778,
+          35.5119002
+        ]
+      },
+      "id": "node/2716846318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716846324",
+        "amenity": "restaurant",
+        "brand": "牛角",
+        "brand:en": "Gyū-Kaku",
+        "brand:ja": "牛角",
+        "brand:wikidata": "Q11349387",
+        "building:levels": "2",
+        "cuisine": "barbecue",
+        "name": "牛角",
+        "name:en": "Gyū-Kaku",
+        "name:ja": "牛角",
+        "name:ja_rm": "Gyukaku"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316651,
+          35.5105517
+        ]
+      },
+      "id": "node/2716846324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2716846329",
+        "fixme": "現存していない。",
+        "name": "菊名中村屋",
+        "phone": "045-423-6833",
+        "shop": "confectionery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316992,
+          35.5113284
+        ]
+      },
+      "id": "node/2716846329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3009818366",
+        "name": "ポラーノ書林",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6323064,
+          35.5097812
+        ]
+      },
+      "id": "node/3009818366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3021670547",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "明華",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6321527,
+          35.5092506
+        ]
+      },
+      "id": "node/3021670547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3045504033",
+        "amenity": "pharmacy",
+        "levels": "1",
+        "name": "菊名調剤薬局",
+        "opening_hours": "Mo-Fr 09:00-19:30; Sa 09:00-17:30; PH off",
+        "phone": "045-433-3555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6306644,
+          35.5094452
+        ]
+      },
+      "id": "node/3045504033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3045504034",
+        "amenity": "doctors",
+        "check_date:opening_hours": "2026-07-13",
+        "levels": "3",
+        "name": "菊名駅前クリニック",
+        "opening_hours": "Mo-Fr 09:00-13:00,15:00-19:00; Sa 09:00-15:00; PH off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6307812,
+          35.509461
+        ]
+      },
+      "id": "node/3045504034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3045504035",
+        "amenity": "doctors",
+        "check_date": "2026-07-29",
+        "levels": "3",
+        "name": "よねもと耳鼻咽頭科",
+        "opening_hours": "Mo,Tu 09:00-13:15,15:00-19:15; Th,Fr 09:00-13:00,15:00-19:00; Sa 09:00-13:00; PH off",
+        "phone": "045-434-3347",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6307922,
+          35.509487
+        ]
+      },
+      "id": "node/3045504035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3045504036",
+        "amenity": "doctors",
+        "levels": "2",
+        "name": "三橋整形外科",
+        "opening_hours": "Mo-Fr 09:00-12:30,15:00-19:00; Sa 09:00-14:00; PH off",
+        "phone": "045-439-5851"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6307512,
+          35.5094778
+        ]
+      },
+      "id": "node/3045504036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3045504037",
+        "amenity": "doctors",
+        "levels": "2",
+        "name": "菊名形成外科・皮フ科",
+        "opening_hours": "Mo-Fr 09:00-12:00,15:00-17:30; Sa 09:00-12:00; PH off",
+        "phone": "045-434-7171"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.630751,
+          35.5094493
+        ]
+      },
+      "id": "node/3045504037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3045504042",
+        "fixme": "現存しない。",
+        "name": "トップ・ドライ",
+        "shop": "dry_cleaning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6307866,
+          35.5093355
+        ]
+      },
+      "id": "node/3045504042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3045504043",
+        "amenity": "bar",
+        "check_date": "2026-07-29",
+        "name": "リンドバーグ",
+        "name:en": "LINDBERGH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6307051,
+          35.5093153
+        ]
+      },
+      "id": "node/3045504043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3213558188",
+        "amenity": "post_box",
+        "collection_times": "Mo-Su,PH 09:56,13:56",
+        "operator": "日本郵便",
+        "operator:en": "Japan Post",
+        "operator:ja": "日本郵便",
+        "operator:short": "郵便局",
+        "operator:short:en": "JP",
+        "operator:short:ja": "郵便局",
+        "operator:wikidata": "Q11509260",
+        "ref": "222436"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6305766,
+          35.5094602
+        ]
+      },
+      "id": "node/3213558188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3213558194",
+        "amenity": "cafe",
+        "branch": "菊名店",
+        "check_date:opening_hours": "2026-07-12",
+        "level": "0",
+        "name": "コロラド",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "+81 45 434 3671"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6304767,
+          35.5099415
+        ]
+      },
+      "id": "node/3213558194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3213558199",
+        "amenity": "fast_food",
+        "cuisine": "karaage",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6305787,
+          35.5100495
+        ]
+      },
+      "id": "node/3213558199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3213558200",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "スギ薬局菊名駅南店",
+        "opening_hours": "Mo-Su,PH 09:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6301743,
+          35.5094679
+        ]
+      },
+      "id": "node/3213558200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3213605289",
+        "addr:block_number": "210",
+        "addr:city": "横浜市",
+        "addr:housenumber": "22",
+        "addr:neighbourhood": "大豆戸町",
+        "addr:postcode": "222-0032",
+        "addr:province": "神奈川県",
+        "addr:suburb": "港北区",
+        "amenity": "restaurant",
+        "capacity": "18",
+        "check_date": "2026-07-15",
+        "cuisine": "asian",
+        "fax": "045-401-0569",
+        "name": "トルシー",
+        "name:en": "Tulshi",
+        "name:ja": "トルシー",
+        "opening_hours": "Mo-Su 11:00-15:00,17:00-23:00",
+        "phone": "045-401-0569",
+        "smoking": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6307727,
+          35.5118389
+        ]
+      },
+      "id": "node/3213605289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3213605291",
+        "amenity": "atm",
+        "brand": "横浜銀行",
+        "brand:en": "Bank of Yokohama",
+        "brand:ja": "横浜銀行",
+        "brand:wikidata": "Q2744340",
+        "cash_in": "yes",
+        "check_date": "2026-07-13",
+        "indoor": "yes",
+        "name:en": "Bank of Yokohama",
+        "name:ja": "横浜銀行",
+        "operator": "横浜銀行",
+        "operator:wikidata": "Q2744340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6309467,
+          35.5103873
+        ]
+      },
+      "id": "node/3213605291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3213605293",
+        "addr:block_number": "2",
+        "addr:city": "横浜市",
+        "addr:housenumber": "1",
+        "addr:province": "神奈川県",
+        "addr:quarter": "篠原北二丁目",
+        "addr:suburb": "港北区",
+        "branch": "菊名店",
+        "brand": "不二家",
+        "brand:en": "Fujiya",
+        "brand:ja": "不二家",
+        "brand:wikidata": "Q858452",
+        "brand:wikipedia": "ja:不二家",
+        "check_date": "2026-07-15",
+        "level": "0",
+        "name": "不二家",
+        "name:en": "Fujiya",
+        "name:ja": "不二家",
+        "opening_hours": "Mo-Su 10:00-19:00",
+        "shop": "confectionery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6305142,
+          35.5100385
+        ]
+      },
+      "id": "node/3213605293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3213632949",
+        "amenity": "bank",
+        "branch": "菊名支店",
+        "brand": "芝信用金庫",
+        "brand:en": "Shiba Shinkin Bank",
+        "brand:ja": "芝信用金庫",
+        "brand:wikidata": "Q11614605",
+        "name": "芝信用金庫",
+        "name:en": "Shiba Shinkin Bank",
+        "name:ja": "芝信用金庫"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6315388,
+          35.5111023
+        ]
+      },
+      "id": "node/3213632949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3785828942",
+        "addr:city": "横浜市港北区菊名7-1-1",
+        "addr:postcode": "2220011",
+        "amenity": "atm",
+        "name": "菊名東急ストア出張所（みずほATM）",
+        "operator": "みずほ銀行"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.630871,
+          35.5099294
+        ]
+      },
+      "id": "node/3785828942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4926223686",
+        "amenity": "restaurant",
+        "name": "野菜レストランさいとう",
+        "opening_hours": "Tu-Su 11:30-14:30, 18:00-22:00; Su[2] off",
+        "phone": "0454341761",
+        "website": "https://www.restaurantsaito.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6323379,
+          35.5118489
+        ]
+      },
+      "id": "node/4926223686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5535387171",
+        "addr:city": "横浜市",
+        "addr:neighbourhood": "1-2-24",
+        "addr:postcode": "2220021",
+        "addr:province": "神奈川県",
+        "addr:quarter": "篠原北",
+        "addr:suburb": "港北区",
+        "description": "映像制作会社",
+        "level": "2",
+        "name": "Remote Studio リモートスタジオ",
+        "name:ja": "Remote Studio リモートスタジオ",
+        "opening_hours": "10:00-22:00",
+        "phone": "050-3786-4422",
+        "shop": "yes",
+        "website": "https://remote-studio.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6300458,
+          35.5092394
+        ]
+      },
+      "id": "node/5535387171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6078078734",
+        "addr:block_number": "1",
+        "addr:city": "横浜市",
+        "addr:neighbourhood": "7",
+        "addr:quarter": "菊名",
+        "addr:suburb": "港北区",
+        "branch": "菊名店",
+        "brand": "Délifrance",
+        "brand:wikidata": "Q5320229",
+        "name": "Délifrance",
+        "phone": "045-642-7312",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.630931,
+          35.5097147
+        ]
+      },
+      "id": "node/6078078734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6362659179",
+        "addr:city": "横浜市",
+        "addr:neighbourhood": "1",
+        "addr:province": "神奈川県",
+        "addr:quarter": "篠原北",
+        "addr:suburb": "港北区",
+        "check_date": "2026-07-27",
+        "level": "1",
+        "name": "ブルーム",
+        "shop": "hearing_aids"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6305218,
+          35.5094176
+        ]
+      },
+      "id": "node/6362659179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6362659597",
+        "addr:city": "横浜市",
+        "addr:neighbourhood": "1",
+        "addr:province": "神奈川県",
+        "addr:quarter": "篠原北",
+        "addr:suburb": "港北区",
+        "amenity": "childcare",
+        "check_date": "2026-07-27",
+        "level": "2",
+        "name": "BabyPark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6305123,
+          35.5093769
+        ]
+      },
+      "id": "node/6362659597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6362659616",
+        "addr:city": "横浜市",
+        "addr:neighbourhood": "1",
+        "addr:province": "神奈川県",
+        "addr:quarter": "篠原北",
+        "addr:suburb": "港北区",
+        "check_date": "2026-07-27",
+        "level": "0",
+        "name": "きくな駅前ミサワ鍼灸整骨マッサージ院",
+        "phone": "+81-0120-891-330",
+        "shop": "massage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6305225,
+          35.5094467
+        ]
+      },
+      "id": "node/6362659616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9593138564",
+        "name": "鈴木青果",
+        "shop": "greengrocer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6322644,
+          35.5099107
+        ]
+      },
+      "id": "node/9593138564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10755215821",
+        "addr:block_number": "7",
+        "addr:city": "横浜市",
+        "addr:housenumber": "1-10",
+        "addr:province": "神奈川県",
+        "addr:quarter": "菊名七丁目",
+        "addr:suburb": "港北区",
+        "name": "安山ストアー",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa,Su,PH off",
+        "phone": "045-431-1505",
+        "shop": "stationery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6309379,
+          35.5103559
+        ]
+      },
+      "id": "node/10755215821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10919421855",
+        "addr:city": "横浜市",
+        "addr:neighbourhood": "2299",
+        "addr:postcode": "222-0021",
+        "addr:province": "神奈川県",
+        "addr:quarter": "大豆戸町",
+        "addr:suburb": "港北区",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "ramen",
+        "level": "0",
+        "name": "ラーメン松壱家菊名店",
+        "phone": "045-834-7007",
+        "toilets": "yes",
+        "website": "https://www.matsuichiya.com/shop.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6306501,
+          35.510116
+        ]
+      },
+      "id": "node/10919421855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11006446983",
+        "brand": "LAWSON",
+        "brand:en": "LAWSON",
+        "brand:ja": "ローソン",
+        "brand:wikidata": "Q1557223",
+        "check_date": "2026-07-30",
+        "name": "ローソン",
+        "name:en": "Lawson",
+        "name:ja": "ローソン",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6315585,
+          35.5098036
+        ]
+      },
+      "id": "node/11006446983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11006446984",
+        "amenity": "restaurant",
+        "check_date": "2026-07-17",
+        "name": "しぶそば"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6315907,
+          35.5097195
+        ]
+      },
+      "id": "node/11006446984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11031878036",
+        "branch": "菊名駅店",
+        "brand": "まいばすけっと",
+        "brand:en": "My Basket",
+        "brand:ja": "まいばすけっと",
+        "brand:wikidata": "Q11278154",
+        "check_date:opening_hours": "2026-07-12",
+        "fax": "045-439-1746",
+        "name": "まいばすけっと",
+        "name:en": "My Basket",
+        "name:ja": "まいばすけっと",
+        "opening_hours": "07:00-24:00",
+        "phone": "045-439-1745",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6307046,
+          35.5097599
+        ]
+      },
+      "id": "node/11031878036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11038361660",
+        "addr:province": "神奈川県",
+        "amenity": "bicycle_rental",
+        "authentication:app": "yes",
+        "brand": "HELLO CYCLING",
+        "brand:ja": "ハローサイクリング",
+        "brand:wikidata": "Q91231927",
+        "capacity": "8",
+        "contact:website": "https://www.hellocycling.jp",
+        "fee": "yes",
+        "gbfs:station_id": "9790",
+        "gbfs:system_id": "hellocycling",
+        "name": "横浜銀行菊名支店",
+        "name:en": "Yokohama Bank Kikuna",
+        "name:ja": "横浜銀行菊名支店",
+        "network": "HELLO CYCLING",
+        "network:ja": "ハローサイクリング",
+        "network:wikidata": "Q91231927"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.631872,
+          35.511309
+        ]
+      },
+      "id": "node/11038361660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12458465539",
+        "amenity": "restaurant",
+        "cuisine": "curry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6319584,
+          35.5102391
+        ]
+      },
+      "id": "node/12458465539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12458465540",
+        "addr:block_number": "2",
+        "addr:city": "横浜市",
+        "addr:housenumber": "16",
+        "addr:neighbourhood": "菊名四丁目",
+        "addr:province": "神奈川県",
+        "addr:suburb": "港北区",
+        "amenity": "restaurant",
+        "name": "猫丸食堂",
+        "opening_hours": "Tu,We,Sa 11:30-14:30; Mo,We,Fr 17:30-21:00; PH off",
+        "phone": "+81-45-438-3317"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6320295,
+          35.5102435
+        ]
+      },
+      "id": "node/12458465540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13189922614",
+        "addr:province": "神奈川県",
+        "amenity": "bicycle_rental",
+        "authentication:app": "yes",
+        "bicycle_rental": "docking_station",
+        "brand": "HELLO CYCLING",
+        "brand:ja": "ハローサイクリング",
+        "brand:wikidata": "Q91231927",
+        "capacity": "10",
+        "contact:website": "https://www.hellocycling.jp",
+        "fee": "yes",
+        "gbfs:station_id": "19946",
+        "gbfs:system_id": "hellocycling",
+        "name": "スギ薬局 菊名駅南店",
+        "name:ja": "スギ薬局 菊名駅南店",
+        "network": "HELLO CYCLING",
+        "network:ja": "ハローサイクリング",
+        "network:wikidata": "Q91231927"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6299702,
+          35.5094678
+        ]
+      },
+      "id": "node/13189922614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13410673395",
+        "access": "customers",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "female": "yes",
+        "male": "yes",
+        "toilets:handwashing": "yes",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6314625,
+          35.5098043
+        ]
+      },
+      "id": "node/13410673395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13427773792",
+        "amenity": "vending_machine",
+        "brand": "ポッカサッポロ",
+        "brand:en": "Pokka Sapporo",
+        "brand:ja": "ポッカサッポロ",
+        "brand:wikidata": "Q7208665",
+        "check_date": "2026-01-02",
+        "name": "ポッカサッポロ",
+        "name:en": "Pokka Sapporo",
+        "name:ja": "ポッカサッポロ",
+        "vending": "water;food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6328875,
+          35.5118651
+        ]
+      },
+      "id": "node/13427773792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13427773793",
+        "amenity": "vending_machine",
+        "brand": "Asahi SOFT DRINKS",
+        "brand:en": "Asahi SOFT DRINKS",
+        "brand:ja": "アサヒ飲料",
+        "brand:wikidata": "Q1833890",
+        "check_date": "2026-01-02",
+        "name": "アサヒ飲料",
+        "name:en": "Asahi Soft Drinks",
+        "name:ja": "アサヒ飲料",
+        "short_name:en": "Asahi",
+        "vending": "drinks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6323846,
+          35.5113316
+        ]
+      },
+      "id": "node/13427773793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13427773794",
+        "amenity": "vending_machine",
+        "brand": "サントリー",
+        "brand:en": "Suntory",
+        "brand:ja": "サントリー",
+        "brand:wikidata": "Q1345267",
+        "check_date": "2026-01-02",
+        "name": "サントリー",
+        "name:en": "Suntory",
+        "name:ja": "サントリー",
+        "vending": "drinks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.632128,
+          35.5110093
+        ]
+      },
+      "id": "node/13427773794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13427773795",
+        "amenity": "vending_machine",
+        "brand": "KIRIN",
+        "check_date": "2026-01-02",
+        "name": "KIRIN",
+        "vending": "drinks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6319532,
+          35.5109612
+        ]
+      },
+      "id": "node/13427773795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13427773796",
+        "amenity": "vending_machine",
+        "brand": "Asahi SOFT DRINKS",
+        "brand:en": "Asahi SOFT DRINKS",
+        "brand:ja": "アサヒ飲料",
+        "brand:wikidata": "Q1833890",
+        "check_date": "2026-01-02",
+        "name": "アサヒ飲料",
+        "name:en": "Asahi Soft Drinks",
+        "name:ja": "アサヒ飲料",
+        "short_name:en": "Asahi",
+        "vending": "drinks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316326,
+          35.5108366
+        ]
+      },
+      "id": "node/13427773796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13427773797",
+        "amenity": "vending_machine",
+        "check_date": "2026-01-02",
+        "vending": "drinks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6316203,
+          35.5108468
+        ]
+      },
+      "id": "node/13427773797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13700143605",
+        "brand": "toks",
+        "brand:en": "toks",
+        "brand:ja": "トークス",
+        "brand:wikidata": "Q11251214",
+        "name": "トークス",
+        "name:en": "toks",
+        "name:ja": "トークス",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6313449,
+          35.5103021
+        ]
+      },
+      "id": "node/13700143605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13726855738",
+        "amenity": "bicycle_rental",
+        "authentication:app": "yes",
+        "bicycle_rental": "dropoff_point",
+        "brand": "Docomo Bike Share",
+        "brand:ja": "ドコモ・バイクシェア",
+        "brand:website": "https://docomo-cycle.jp/",
+        "brand:wikidata": "Q55533296",
+        "capacity": "2",
+        "fee": "yes",
+        "gbfs:name": "【KH042】スギ薬局 菊名駅南店",
+        "gbfs:station_id": "5140",
+        "gbfs:system_id": "docomo-cycle",
+        "name": "スギ薬局 菊名駅南店",
+        "name:ja": "スギ薬局 菊名駅南店",
+        "ref": "KH042"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.62997,
+          35.509468
+        ]
+      },
+      "id": "node/13726855738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13726855755",
+        "amenity": "bicycle_rental",
+        "authentication:app": "yes",
+        "brand": "Docomo Bike Share",
+        "brand:ja": "ドコモ・バイクシェア",
+        "brand:website": "https://docomo-cycle.jp/",
+        "brand:wikidata": "Q55533296",
+        "capacity": "0",
+        "fee": "yes",
+        "gbfs:name": "【KH025】横浜銀行菊名支店",
+        "gbfs:station_id": "5123",
+        "gbfs:system_id": "docomo-cycle",
+        "name": "横浜銀行菊名支店",
+        "name:ja": "横浜銀行菊名支店",
+        "ref": "KH025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.631872,
+          35.511309
+        ]
+      },
+      "id": "node/13726855755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14053781134",
+        "addr:city": "横浜市",
+        "addr:province": "神奈川県",
+        "addr:quarter": "大豆戸町",
+        "addr:suburb": "港北区",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "菊名ふじ薬局",
+        "phone": "045-402-5001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6306665,
+          35.5115245
+        ]
+      },
+      "id": "node/14053781134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14061436990",
+        "amenity": "pub",
+        "level": "0",
+        "name": "炉端焼じゃがいも"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6297919,
+          35.5095374
+        ]
+      },
+      "id": "node/14061436990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14107513146",
+        "beauty": "eyebrow;eyelash;skin_care",
+        "level": "2",
+        "name": "Bijou eyes",
+        "name:ja": "ビジューアイズ",
+        "shop": "beauty"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6304102,
+          35.510058
+        ]
+      },
+      "id": "node/14107513146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14107513147",
+        "addr:city": "横浜市",
+        "addr:province": "神奈川県",
+        "addr:suburb": "港北区",
+        "level": "0",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6304038,
+          35.5100255
+        ]
+      },
+      "id": "node/14107513147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14107513148",
+        "addr:city": "横浜市",
+        "addr:province": "神奈川県",
+        "addr:suburb": "港北区",
+        "amenity": "bar",
+        "level": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6304067,
+          35.5100417
+        ]
+      },
+      "id": "node/14107513148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14107513155",
+        "amenity": "restaurant",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6304769,
+          35.5100245
+        ]
+      },
+      "id": "node/14107513155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14107513157",
+        "level": "0",
+        "shop": "dry_cleaning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6307749,
+          35.5102287
+        ]
+      },
+      "id": "node/14107513157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14107553875",
+        "addr:city": "横浜市",
+        "addr:province": "神奈川県",
+        "addr:suburb": "港北区",
+        "amenity": "bar",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.630776,
+          35.5118847
+        ]
+      },
+      "id": "node/14107553875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14107553876",
+        "addr:city": "横浜市",
+        "addr:province": "神奈川県",
+        "addr:suburb": "港北区",
+        "amenity": "bar",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6307977,
+          35.5117003
+        ]
+      },
+      "id": "node/14107553876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14107553877",
+        "addr:city": "横浜市",
+        "addr:province": "神奈川県",
+        "addr:suburb": "港北区",
+        "amenity": "pub",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6308907,
+          35.5116477
+        ]
+      },
+      "id": "node/14107553877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14107553878",
+        "addr:city": "横浜市",
+        "addr:province": "神奈川県",
+        "addr:suburb": "港北区",
+        "amenity": "pub",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6308607,
+          35.5118577
+        ]
+      },
+      "id": "node/14107553878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14107569406",
+        "amenity": "vending_machine",
+        "payment:cash": "yes",
+        "vending": "drinks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6307442,
+          35.5116232
+        ]
+      },
+      "id": "node/14107569406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14107569407",
+        "amenity": "photo_booth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6307549,
+          35.5116305
+        ]
+      },
+      "id": "node/14107569407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14107569408",
+        "amenity": "vending_machine",
+        "vending": "food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.630787,
+          35.5115682
+        ]
+      },
+      "id": "node/14107569408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14130315289",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6303018,
+          35.5093788
+        ]
+      },
+      "id": "node/14130315289"
+    }
+  ]
+}

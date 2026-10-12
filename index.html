@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Every Door で菊名駅前のOSMを修正してみた</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Helvetica Neue', Arial, sans-serif; background: #f5f5f5; color: #333; }
+
+    header {
+      background: #2c7a4b;
+      color: white;
+      padding: 16px 24px;
+    }
+    header h1 { font-size: 1.2rem; font-weight: bold; }
+    header p { font-size: 0.85rem; opacity: 0.85; margin-top: 4px; }
+
+    .toggle-bar {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      padding: 12px;
+      background: white;
+      border-bottom: 1px solid #ddd;
+    }
+    .toggle-btn {
+      padding: 8px 28px;
+      border: 2px solid #2c7a4b;
+      background: white;
+      color: #2c7a4b;
+      cursor: pointer;
+      font-size: 0.95rem;
+      font-weight: bold;
+      transition: all 0.2s;
+    }
+    .toggle-btn:first-child { border-radius: 6px 0 0 6px; }
+    .toggle-btn:last-child  { border-radius: 0 6px 6px 0; }
+    .toggle-btn.active {
+      background: #2c7a4b;
+      color: white;
+    }
+
+    #map { height: calc(100vh - 180px); width: 100%; }
+
+    .legend {
+      background: white;
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-size: 0.82rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      line-height: 1.8;
+    }
+    .legend-dot {
+      display: inline-block;
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+
+    .info-bar {
+      background: #fff8e1;
+      border-left: 4px solid #f5a623;
+      padding: 10px 16px;
+      font-size: 0.85rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Every Door で菊名駅前のOSMを修正してみた</h1>
+  <p>FOSS4G Hiroshima / SotM Asia OSAKA 振り返りハッカソン 2026 — by chihana-0421</p>
+</header>
+
+<div class="toggle-bar">
+  <button class="toggle-btn active" id="btn-before" onclick="showBefore()">📍 修正前 (Before)</button>
+  <button class="toggle-btn"        id="btn-after"  onclick="showAfter()">✅ 修正後 (After)</button>
+</div>
+
+<div class="info-bar" id="info-bar">
+  📌 修正前のOSMデータを表示しています。マーカーをクリックすると詳細が確認できます。
+</div>
+
+<div id="map"></div>
+
+<script>
+  // 菊名駅を中心に地図を初期化
+  const map = L.map('map').setView([35.5017, 139.6195], 17);
+
+  // ベースタイル（OSM）
+  const osmTile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19
+  });
+  osmTile.addTo(map);
+
+  // 菊名駅マーカー
+  const stationIcon = L.divIcon({
+    html: '🚉',
+    className: '',
+    iconSize: [24, 24],
+    iconAnchor: [12, 12]
+  });
+  L.marker([35.5017, 139.6195], { icon: stationIcon })
+    .addTo(map)
+    .bindPopup('<b>菊名駅</b><br>横浜市港北区');
+
+  // レイヤー管理
+  let beforeLayer = null;
+  let afterLayer = null;
+  let currentView = 'before';
+
+  // マーカースタイル
+  function poiStyle(color) {
+    return L.circleMarker([0,0], {
+      radius: 7,
+      fillColor: color,
+      color: '#fff',
+      weight: 2,
+      opacity: 1,
+      fillOpacity: 0.85
+    });
+  }
+
+  function featureToPopup(feature) {
+    const p = feature.properties;
+    const name = p.name || p['name:ja'] || '(名称なし)';
+    const type = p.shop || p.amenity || p.leisure || '';
+    const fixme = p.fixme ? `<br>⚠️ fixme: ${p.fixme}` : '';
+    return `<b>${name}</b><br><span style="color:#666">${type}</span>${fixme}`;
+  }
+
+  function loadGeoJSON(url, color, onLoad) {
+    fetch(url)
+      .then(r => {
+        if (!r.ok) throw new Error('Not found');
+        return r.json();
+      })
+      .then(data => {
+        const layer = L.geoJSON(data, {
+          pointToLayer: (f, latlng) => L.circleMarker(latlng, {
+            radius: 7,
+            fillColor: color,
+            color: '#fff',
+            weight: 2,
+            opacity: 1,
+            fillOpacity: 0.85
+          }),
+          onEachFeature: (feature, layer) => {
+            layer.bindPopup(featureToPopup(feature));
+          }
+        });
+        onLoad(layer);
+      })
+      .catch(() => {
+        onLoad(null);
+      });
+  }
+
+  // Before データ読み込み
+  loadGeoJSON('before_kikuna.geojson', '#e74c3c', layer => {
+    beforeLayer = layer;
+    if (currentView === 'before' && layer) {
+      layer.addTo(map);
+      updateLegend('before');
+    } else if (!layer) {
+      showPlaceholder('before');
+    }
+  });
+
+  // After データ読み込み
+  loadGeoJSON('after_kikuna.geojson', '#2ecc71', layer => {
+    afterLayer = layer;
+    if (currentView === 'after' && layer) {
+      layer.addTo(map);
+      updateLegend('after');
+    }
+  });
+
+  function showBefore() {
+    currentView = 'before';
+    if (afterLayer) map.removeLayer(afterLayer);
+    if (beforeLayer) {
+      beforeLayer.addTo(map);
+      updateLegend('before');
+    } else {
+      showPlaceholder('before');
+    }
+    document.getElementById('btn-before').classList.add('active');
+    document.getElementById('btn-after').classList.remove('active');
+    document.getElementById('info-bar').innerHTML =
+      '📌 修正前のOSMデータを表示しています。マーカーをクリックすると詳細が確認できます。';
+  }
+
+  function showAfter() {
+    currentView = 'after';
+    if (beforeLayer) map.removeLayer(beforeLayer);
+    if (afterLayer) {
+      afterLayer.addTo(map);
+      updateLegend('after');
+    } else {
+      document.getElementById('info-bar').innerHTML =
+        '⏳ 修正後のデータはEvery Door編集後に追加予定です。';
+    }
+    document.getElementById('btn-before').classList.remove('active');
+    document.getElementById('btn-after').classList.add('active');
+  }
+
+  function showPlaceholder(mode) {
+    document.getElementById('info-bar').innerHTML =
+      '⏳ GeoJSONデータを準備中です。before_kikuna.geojson をリポジトリに追加してください。';
+  }
+
+  // 凡例
+  const legend = L.control({ position: 'bottomright' });
+  legend.onAdd = () => {
+    const div = L.DomUtil.create('div', 'legend');
+    div.id = 'legend-content';
+    div.innerHTML = legendHTML('before');
+    return div;
+  };
+  legend.addTo(map);
+
+  function legendHTML(mode) {
+    if (mode === 'before') {
+      return `<b>修正前 (Before)</b><br>
+        <span class="legend-dot" style="background:#e74c3c"></span>OSM既存データ<br>
+        <span style="font-size:0.75rem;color:#888">⚠️ fixme タグ付きあり</span>`;
+    } else {
+      return `<b>修正後 (After)</b><br>
+        <span class="legend-dot" style="background:#2ecc71"></span>Every Door修正済み<br>
+        <span style="font-size:0.75rem;color:#888">✅ 現地確認済み</span>`;
+    }
+  }
+
+  function updateLegend(mode) {
+    const el = document.getElementById('legend-content');
+    if (el) el.innerHTML = legendHTML(mode);
+  }
+</script>
+
+</body>
+</html>
